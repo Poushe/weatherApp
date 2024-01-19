@@ -9,7 +9,7 @@ def main(request):
         city, country= citycountry.split(',')
         city = city.replace(" ", "+")
         source = urllib.request.urlopen('https://api.openweathermap.org/data/2.5/weather?q=' 
-        + city + '&units=metric&appid=<Your Key>').read()
+        + city + '&units=metric&appid=5e9e52d2d35442f9762b296ff8bac9f7').read()
         alldata = json.loads(source)
 
         data = {
