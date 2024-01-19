@@ -34,15 +34,5 @@ def main(request):
 
     return render(request, "main/index.html", data)
 
-def textualdes(degree):
-    if(degree>=337.5):
-        return 'Northerly'
-    if(degree>=292.5):
-        return 'North Westerly'
-    if(degree>=247.5):
-        return 'Westerly'
-    return 'Northerly'
-
-
 def landing(request):
     return render(request,'main/landing.html')
