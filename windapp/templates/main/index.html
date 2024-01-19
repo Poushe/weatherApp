@@ -36,22 +36,6 @@
         {% if temp and speed %}
         <div class="col-sm-2">
           <div class="card text-bg-primary mb-6">
-            <div class="card-header">Temperature</div>
-            <div class="card-body">
-              <h5 class="card-title">{{temp}}</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-bg-primary mb-6">
-            <div class="card-header">Humidity</div>
-            <div class="card-body">
-              <h5 class="card-title">{{humidity}}</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-bg-primary mb-6">
             <div class="card-header">Wind</div>
             <div class="card-body">
               <h5 class="card-title">{{speed}}</h5>
@@ -68,7 +52,23 @@
         </div>
         <div class="col-sm-2">
           <div class="card text-bg-primary mb-6">
-            <div class="card-header">Weather</div>
+            <div class="card-header">Temperature</div>
+            <div class="card-body">
+              <h5 class="card-title">{{temp}}</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card text-bg-primary mb-6">
+            <div class="card-header">Humidity</div>
+            <div class="card-body">
+              <h5 class="card-title">{{humidity}}</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card text-bg-primary mb-6">
+            <div class="card-header">Description</div>
             <div class="card-body">
               <h5 class="card-title">{{description}}</h5>
             </div>
